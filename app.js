@@ -4,7 +4,7 @@ const hbs = require("hbs")
 
 const helpers = require("./process/helpers")
 
-const PORT = process.env.PORT || 3000
+const port = process.env.PORT || 3000
 
 app.use(express.static(__dirname+"/public"))
 
@@ -35,6 +35,6 @@ app.get("/about",(req,res)=>{
 
 })
 
-app.listen(PORT,()=>{
+app.listen(port,()=>{
     console.log("corriendo en puerto 3000")
 })
