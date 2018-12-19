@@ -4,6 +4,8 @@ const hbs = require("hbs")
 
 const helpers = require("./process/helpers")
 
+const PORT = process.env.PORT || 3000
+
 app.use(express.static(__dirname+"/public"))
 
 // anexar un directorio de parciales
@@ -33,6 +35,6 @@ app.get("/about",(req,res)=>{
 
 })
 
-app.listen(3000,()=>{
+app.listen(PORT,()=>{
     console.log("corriendo en puerto 3000")
 })
