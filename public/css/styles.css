@@ -1,0 +1,18 @@
+#headerPrincipal img#logotipo{
+    transition: all 0.7s ease;
+}
+#headerPrincipal img#logotipo:hover{transform: scale(-1,1);}
+#headerPrincipal nav a{
+    position: relative;
+    top:0px;
+}
+.bg-whitelight{
+    background: #f2f2f2;
+}
+
+#galeriaInmueble aside>div{
+    
+    flex-wrap: wrap;
+    justify-content:center;
+    
+}

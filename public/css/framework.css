@@ -1,0 +1,31 @@
+
+.img-modal::before{
+    background: rgba(0,0,0,0.8);
+    position:absolute;
+    height:100%;
+    width:100%;
+    left: 0%;
+    content: "";
+    z-index: 1;
+    transition: all 0.7s ease;
+    color:white;
+    
+}
+.img-modal-text{
+    position:relative;
+    color:white;
+    z-index: 2;
+}
+
+.layout-ads{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    padding: 0px 10px;
+    
+}
+.hr-xr{
+    
+    
+    border-right: 1px solid rgba(0,0,0,.1)
+}
