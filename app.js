@@ -2,7 +2,7 @@ const express = require("express")
 const app = express()
 const hbs = require("hbs")
 
-const helpers = require("./process/helpers")
+require("./process/helpers")
 
 const port = process.env.PORT || 3000
 
